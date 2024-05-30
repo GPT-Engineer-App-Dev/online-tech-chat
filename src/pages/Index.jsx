@@ -22,7 +22,7 @@ const Index = ({ authenticated }) => {
   return (
     <Container centerContent maxW="container.md" py={8}>
       <VStack spacing={8} width="100%">
-        <Heading as="h1" size="xl">Tech Discussions Forum</Heading>
+        <Heading as="h1" size="xl">Tech Forum</Heading>
         {!authenticated ? (
           <Box>
             <Text mb={4}>Please <Button onClick={() => navigate("/login")}>Login</Button> or <Button onClick={() => navigate("/register")}>Register</Button> to create and view posts.</Text>
